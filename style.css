@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/floor.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header, footer{
+    height: 25vh;
+    background-image: url(images/cover.jpg);
+}
+
+footer{
+    text-align: center;
+    padding-top: 25px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mainheading{
+    color: white;
+    font-size: 45px;
+}
+
+#tel{
+    font-weight: bold;
+    color:white;
+    font-size: 18px;
+}
+
+nav{
+height: 40px;
+background-color: aliceblue; 
+padding-left: 11%;
+}
+
+.links{
+    color:darkgreen;
+    display: inline-block;
+    width: 130px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+.links:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+#mainImage{
+    width: 60vw;
+    height:55vh;
+    margin: auto;
+    background-image: url(images/floor.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    box-shadow: 0px -5px 10px black;
+    border-radius: 5px;
+}
+
+#sofaImg{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 70vw;
+    background-color: rgba(216, 235, 252, 0.603);
+    margin: auto;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#headingBeach{
+    text-align: center;
+    color: darkgreen;
+    font-size: 45px;  
+    padding: 25px;  
+
+}
+
+#flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#d1{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    padding: 7px;
+    margin-top: 15px;
+}
+
+.vilas{
+    width: 100%;
+    height: 100%;
+}
+
+#reviewHeading{
+    font-size: 40px;
+    color: rgb(100, 0, 12);
+}
+
+#reviews{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    padding: 7px;
+}
+
+#mainReview{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#review-1{
+    width: 76%;
+}
+
+#form{
+    width: fit-content;
+}
+
+#bottle{
+    width: 40vw;
+    height: 50vh;
+    padding: 7px;
+    background-color: white;
+}
+span{
+    color: red;
+}
+
+#aboveFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+#inp1{
+    width: 250px;
+    height: 25px;
+}
+
+#submitButton{
+    padding: 7px 40px;
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+    border:none;
+    border-radius: 5px;
+}
+
+#footerContent{
+    color:white;
+    font-weight: bold;
+    
+}
+
+
+
+
